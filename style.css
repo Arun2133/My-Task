@@ -4,35 +4,37 @@
     box-sizing: border-box;
 }
 body {
-    background-color: skyblue;
+    background-color: #D5D8DC; 
 }
-.container {
-    width: 750px;
+ .container {
+    width: 967px;
     height: 100px;
     position: absolute;
-    top: 150px;
-    left: 300px;
+    top: 83px;
+    left: 265px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
+} 
    
 
-.box {
+/* .box {
     background-color: white;
     width: 150px;
     height: 70px;
     padding-top: 25px;
     padding-left: 50px;
-}
+} */
 .a1 {
-    width: 900px;
-    height: 400px;
-    background-color:powderblue;
+   
+    width: 982px;
+    height: 415px;
+    border: 1px solid;
+    background-color: #ECF0F1;
     position: absolute;
-    top: 300px;
-    left: 300px;
-    overflow-x: hidden ;
+    top: 263px;
+    left: 255px;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 
@@ -48,4 +50,13 @@ a {
     text-decoration: none;
     font-style: initial;
 } 
+input{
+    height: 120px;
+    width: 184px;
+    background-color: white;
+    border: none;
+    border-radius: 36px;
+    background-color: #2C6CEE;
+    color: white;
+}
 
